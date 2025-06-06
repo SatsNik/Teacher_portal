@@ -10,6 +10,7 @@ A Django-based web application that allows teachers to:
 ---
 
 ## Project Structure
+
 Teacher_portal/             <-- Your main project root directory (cloned repo)
 ├── .env                    <-- Environment variables (NOT pushed to Git)
 ├── .gitignore              <-- Specifies files/folders to ignore in Git
