@@ -29,12 +29,12 @@ A Django-based web application that allows teachers to:
 ---
 
 ## Installation & Setup
-**Presequits**
+**Presequits :**
 
-Python: The core language for Django.
-pip: Python's package installer, usually comes bundled with Python.
-Git: Required to clone the project repository from GitHub.
-Terminal or Command Prompt: To execute the commands provided in the setup guide.
+- Python: The core language for Django.
+- pip: Python's package installer, usually comes bundled with Python.
+- Git: Required to clone the project repository from GitHub.
+- Terminal or Command Prompt: To execute the commands provided in the setup guide.
 
 **1. Open your Terminal**
 Create a Project Folder and navigate into it
