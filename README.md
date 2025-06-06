@@ -2,7 +2,7 @@
 
 A Django-based web application that allows teachers to:
 
-✅ Register and login  
+✅ Register and login as a Teacher
 ✅ Add, edit, and delete student records  
 ✅ Each teacher has their own set of student records  
 ✅ Clean, modern UI with HTML, CSS, and JavaScript
@@ -45,13 +45,15 @@ cd Teacher_portal
 create a .env file in root direrctory(at manage.py file level)
 
 **4. Generating Secret Key(if not provided in Readme file)**
+Note : In Django, Secret key is a key to access the applicaion, for testing purposes or for demo projects -> it can be shared, but for production purposes -> Secret Key should never be shared(Highly Recommended).
 ```bash
 python manage.py shell -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
 This command will generate a long string(a Secret Key), copy it.
 
 **5. Adding secret Key into .env file**
-DJANGO_SECRET_KEY = <your above secret key>
+
+DJANGO_SECRET_KEY = 'YOUR_GENERATED_DJANGO_SECRET_KEY_HERE'
 
 **6. Install Dependencies**
 ```bash
