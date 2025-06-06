@@ -11,39 +11,38 @@ A Django-based web application that allows teachers to:
 
 ## Project Structure
 
-Teacher_portal/             <-- Your main project root directory (cloned repo)
-├── .env                    <-- Environment variables (NOT pushed to Git)
-├── .gitignore              <-- Specifies files/folders to ignore in Git
-├── db.sqlite3              <-- SQLite database file (NOT pushed to Git)
-├── manage.py               <-- Django's command-line utility
-├── Teacher_portal/         <-- Your Django project's main configuration folder
+Teacher_portal/   <-- Your main project root directory
+├── .env          <-- Environment variables (not pushed to Git)
+├── .gitignore    <-- Specifies files/folders to ignore in Git
+├── db.sqlite3    <-- SQLite database file (not pushed to Git)
+├── manage.py     <-- Django's command-line utility
+├── requirements.txt  <-- Lists all Python dependencies
+├── Teacher_portal/   <-- Main Django project configuration folder
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
-├── teacher/                <-- Your Django app (e.g., 'teacher' app)
-│   ├── __pycache__/        <-- Python compiled files (NOT pushed to Git)
-│   ├── migrations/         <-- Database migration files
-│   ├── static/             <-- App-specific static files (CSS, JS, images)
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   └── js/
-│   │       └── main.js
-│   ├── templates/          <-- App-specific HTML templates
-│   │   └── teacher/
-│   │       ├── edit_student.html
-│   │       ├── home.html
-│   │       ├── login.html
-│   │       └── register.html
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-├── requirements.txt        <-- Lists all Python dependencies
+└── teacher/      <-- Your Django app (e.g., 'teacher' app)
+    ├── __init__.py
+    ├── admin.py
+    ├── apps.py
+    ├── models.py
+    ├── tests.py
+    ├── urls.py
+    ├── views.py
+    ├── migrations/   <-- Database migration files
+    ├── static/       <-- App-specific static files (CSS, JS, images)
+    │   ├── css/
+    │   │   └── style.css
+    │   └── js/
+    │       └── main.js
+    └── templates/    <-- App-specific HTML templates
+        ├── edit_student.html
+        ├── home.html
+        ├── login.html
+        └── register.html
+
 ---
 ## Features
 
