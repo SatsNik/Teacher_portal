@@ -41,6 +41,7 @@ git clone https://github.com/SatsNik/Teacher_portal.git
 cd Teacher_portal
 ```
 **3. Creating .env file**
+
 create a .env file in root direrctory(at manage.py file level)
 
 **4. Generating Secret Key(if not provided in Readme file)**
